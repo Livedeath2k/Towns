@@ -25,10 +25,11 @@ jobs:
 
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
-      # Diese Action konfiguriert Gradle und kümmert sich um das Caching von Abhängigkeiten
+      with:
+        gradle-version: '8.5' # Hier kannst du eine feste Version erzwingen
 
     - name: Build with Gradle
-      run: gradle build
+      run: gradle shadowJar
       # Nutzt den Gradle Wrapper. Falls dieser nicht im Repo ist, 'gradle build' nutzen.
 
     - name: Upload Build Artifact
