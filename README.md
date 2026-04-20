@@ -6,8 +6,7 @@ IntelliJ.
 
 
 # Towns
-
-Repository for the Towns game
+Repository for the [Towns game][]
 
 This game was originally developed over a decade ago. For a while, it built a small but active community. Today, that
 community is much smaller, but the project still lives on in different ways.
@@ -26,7 +25,7 @@ This repository is the result of that decision.
 
 # Code License
 
-The source code is released under the GNU GPL v3 license.
+The source code is released under the [GNU GPL v3 license][LICENSE].
 
 In simple terms:
 
@@ -34,15 +33,17 @@ In simple terms:
 - You can redistribute it
 - If you distribute a modified version, you must also release it under GPL and make the source code available
 
-See the LICENSE file for the full text.
+See the [LICENSE][] file for the full text.
 
 # Contributions & Forks
 
 You are welcome to fork the project, experiment, or create your own versions.
 
-I don’t guarantee reviewing pull requests or maintaining the project, but I’d genuinely enjoy seeing what comes out of
-it.
+I don’t guarantee reviewing pull requests or maintaining the project, but I’d genuinely enjoy seeing what comes out of it.
 
 If you build something interesting, feel free to share it :)
 
 Thanks to everyone who has been part of this project.
+
+[Towns game]: https://store.steampowered.com/app/221020/Towns/
+[LICENSE]: ./LICENSE
