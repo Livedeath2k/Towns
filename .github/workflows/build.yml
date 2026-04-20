@@ -2,9 +2,9 @@ name: Build Towns Game
 
 on:
   push:
-    branches: [ "main", "master" ] # Hier den Namen deines Haupt-Branches eintragen
+    branches: [ "main" ] # Hier den Namen deines Haupt-Branches eintragen
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "main" ]
   workflow_dispatch: # Erlaubt manuelles Starten über das Actions-Tab
 
 jobs:
