@@ -4,6 +4,7 @@
 IntelliJ.
 - Compiled game seems to work to the best of my testing, though it was minimal
 
+There are so many things going on in any single file
 
 # Towns
 Repository for the [Towns game][]
