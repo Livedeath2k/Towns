@@ -1,0 +1,29 @@
+name: Build Towns Game
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch: # Erlaubt manuelles Starten
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 8 # Towns ist ein älteres Spiel, meist ist Java 8 nötig
+      uses: actions/setup-java@v4
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+
+    - name: Build with Ant # Towns nutzt oft Apache Ant
+      run: ant # Falls eine build.xml existiert. Falls nicht, muss der Befehl angepasst werden.
+
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: Towns-Executable
+        path: bin/ # Oder der Ordner, in dem die .jar Datei landet
