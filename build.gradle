@@ -1,4 +1,5 @@
 plugins {
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
     id 'java'
     id 'application'
 }
@@ -57,4 +58,11 @@ tasks.named('run', JavaExec) {
 
 test {
     useJUnitPlatform()
+}
+
+shadowJar {
+    archiveClassifier.set('')
+    manifest {
+        attributes 'Main-Class': 'towns.Main'
+    }
 }
