@@ -28,7 +28,7 @@ jobs:
       # Diese Action konfiguriert Gradle und kümmert sich um das Caching von Abhängigkeiten
 
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradle build
       # Nutzt den Gradle Wrapper. Falls dieser nicht im Repo ist, 'gradle build' nutzen.
 
     - name: Upload Build Artifact
