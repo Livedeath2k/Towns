@@ -1,28 +1,9 @@
-# Mia's Notes
-- Missing files have been added from the official game assets
-- Entire repo has been updated for Gradle and has been automatically reformatted, optimized, and cleaned up with
-IntelliJ.
-- Compiled game seems to work to the best of my testing, though it was minimal
-
-There are so many things going on in any single file
+# Livedeath's Notes
+I try to make runable Game files.
+That Repository is a fork from Mia's and other Repository.
 
 # Towns
 Repository for the [Towns game][]
-
-This game was originally developed over a decade ago. For a while, it built a small but active community. Today, that
-community is much smaller, but the project still lives on in different ways.
-
-Over the years, several people have reached out asking for access to the source code to understand how it works, modify
-it, or create their own versions. Until now, I had always chosen to keep it private.
-
-I think it’s time to change that.
-
-This repository is the result of that decision.
-
-# Repository Contents
-
-- Full source code of the game
-- Basic game data (.ini files, .xml files)
 
 # Code License
 
@@ -34,17 +15,7 @@ In simple terms:
 - You can redistribute it
 - If you distribute a modified version, you must also release it under GPL and make the source code available
 
-See the [LICENSE][] file for the full text.
-
-# Contributions & Forks
-
-You are welcome to fork the project, experiment, or create your own versions.
-
-I don’t guarantee reviewing pull requests or maintaining the project, but I’d genuinely enjoy seeing what comes out of it.
-
-If you build something interesting, feel free to share it :)
-
-Thanks to everyone who has been part of this project.
+See the [LICENSE] file for the full text.
 
 [Towns game]: https://store.steampowered.com/app/221020/Towns/
 [LICENSE]: ./LICENSE
